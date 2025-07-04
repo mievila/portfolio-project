@@ -1,55 +1,93 @@
 :root {
-    --brand-color: #6c63ff;
-    --heading-font-family: 'Playfair Display', serif;
-    --default-font-family: 'Poppins', sans-serif;
-    --pirmary-color: #f9f7fe;
+    --primary-color: #6c63ff;
+    --secondary-color: #f9f7fe;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "Poppins", sans-serif;
 }
 
 body {
     font-family: var(--default-font-family);
 }
 
-h1 h2 h3 h4 h5 {
-    color: black;
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: var(--heading-font-family);
+    color: black;
     font-weight: bold;
 }
 
-h2 {
+h1 {
     font-size: 96px;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 64px;
 }
 
 p {
-    font-family: var(--default-font-family);
+    font-size: 16px;
     font-weight: normal;
+    line-height: 30px;
 }
 
-.content {
-    background-color: var(--pirmary-color);
+.container {
+    background: var(--secondary-color);
     text-align: center;
     padding: 160px 20px;
 }
 
-.content p {
-    font-family: var(--heading-font-family);
-    font-size: 36px;
-    font-weight: bold;
-    margin: 0;
-    color: #272142;
+.container p {
+    text-align: center;
 }
 
-.content h1 {
-    font-family: var(--default-font-family);
+.container h2 {
+    font-family: var(--heading-font-family);
     font-weight: normal;
-    font-size: 24px;
     line-height: 2;
 }
 
 .btn-brand {
-    background: var(--brand-color);
+    background: var(--primary-color);
     border-radius: 4px;
-    color: white;
+    color: aliceblue;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+}
+
+.btn-branding {
+    border-radius: 4px;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+.dis-project {
+    padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 42px;
+        line-height: 1.5;
+    }
+
+    h2 {
+        font-size: 42px;
+    }
+
+    .container {
+        padding: 80px 20px;
+    }
+
+    .dis-project {
+        padding: 0;
+        text-align: center;
+    }
 }
