@@ -34,33 +34,42 @@ p {
     line-height: 30px;
 }
 
-.container {
+.sect {
     background: var(--secondary-color);
     text-align: center;
     padding: 160px 20px;
 }
 
-.container p {
+.contain p {
     text-align: center;
 }
 
-.container h2 {
+.contain h2 {
     font-family: var(--heading-font-family);
     font-weight: normal;
     line-height: 2;
 }
-.about-section  {
+.content-contaneir  {
    padding: 160px 20px;
 }
-.section h1{
+.content h1{
 font-size: 64px;
 line-height: 1.5;
 }
-.section h2 {
+.content-contaneir h2 {
     font-size: 16px;
   font-family: var(--default-font-family);
 }
-.about-section  {
+.content h4 {
+    font-size: 24px;
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+}
+.content p {
+    font-size: 1ppx;
+    margin: 0;
+}
+.content{
     margin: 29px;
 }
 
@@ -96,15 +105,15 @@ line-height: 1.5;
         font-size: 42px;
     }
 
-    .container {
+    .contain{
         padding: 80px 20px;
     }
-    .section {
+    .content-container {
             text-align: center;
             padding: 40px 20px;
         }
                
-     .about-section {
+     .content {
             margin: 20px 0;
             padding: 40px 20px;
         }
@@ -113,11 +122,11 @@ line-height: 1.5;
         padding: 0;
         text-align: center;
     }
-         .section h1 {
+         .content-container h1 {
              font-size: 42px;
          }
     
-         .section h2 {
+         .content-container h2 {
              font-size: 16px;
          }
 }
