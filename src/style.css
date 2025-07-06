@@ -49,6 +49,20 @@ p {
     font-weight: normal;
     line-height: 2;
 }
+.about-section  {
+   padding: 160px 20px;
+}
+.section h1{
+font-size: 64px;
+line-height: 1.5;
+}
+.section h2 {
+    font-size: 16px;
+  font-family: var(--default-font-family);
+}
+.about-section  {
+    margin: 29px;
+}
 
 .btn-brand {
     background: var(--primary-color);
@@ -75,7 +89,7 @@ p {
 @media (max-width: 900px) {
     h1 {
         font-size: 42px;
-        line-height: 1.5;
+        line-height: 56px;
     }
 
     h2 {
@@ -85,9 +99,25 @@ p {
     .container {
         padding: 80px 20px;
     }
+    .section {
+            text-align: center;
+            padding: 40px 20px;
+        }
+               
+     .about-section {
+            margin: 20px 0;
+            padding: 40px 20px;
+        }
 
     .dis-project {
         padding: 0;
         text-align: center;
     }
+         .section h1 {
+             font-size: 42px;
+         }
+    
+         .section h2 {
+             font-size: 16px;
+         }
 }
