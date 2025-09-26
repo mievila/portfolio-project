@@ -134,6 +134,40 @@ nav a:hover,
 nav li.active a{
     color: var(--primary-color);
 }
+.circular {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 6px solid var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    background: #1b1f3b;
+    font-weight: bold;
+}
+
+.circular strong {
+    font-size: 20px;
+}
+
+.circular span {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.social-icons a {
+    color: var(--primary-color);
+    margin-right: 15px;
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: var(--dark-color);
+}
 
 footer{
     margin: 60px 0;
