@@ -1,163 +1,222 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Faith is a front-end engineer based in Portugal">
-    <title>Front-end developer Faith </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Faith portfolio. Front-end engineer based in Portugal.">
+    <title>Faith Portfolio</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
-        rel="stylesheet" />
+        rel="stylesheet">
 
-    <link href="src/style.css" rel="stylesheet" />
+    
+    <script src="https://kit.fontawesome.com/168f32d52b.js" crossorigin="anonymous"></script>
+
+  
+    <link rel="stylesheet" href="src/style.css">
 </head>
 
 <body>
-    <div class="container">
-    <nav class="d-flex justify-content-end ">
-       
+
+
+    <nav class="container">
         <ul>
-            <li class=" active">
-                <a  href="index.html" title="Homepage">Home</a>
-            </li>
-            <li>
-                <a  href="about.html" title="About Faith ">About</a>
-            </li>
-            <li>
-                <a  href="work.html" title="Faith Work">Work</a>
-            </li>
-            <li>
-                <a href="skills.html" title="Faith Work">Skills</a>
-            </li>
-            <li >
-                <a  href="contact.html" title="Contact Faith">Contact</a>
-            </li>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    </div>
 
-    <div class="sect">
-        <p>👋🏾Hello, I am</p>
-        <h1>Faith Akeyiale</h1>
-        <h2 class="mb-5">Front-end developer </h2>
-        <div>
-            <a href="contact.html" class="btn btn-brand" title="contactm me">Contact me</a>
-        </div>
-        
-    </div>
-    <p class="text-center middle m-5">Turning ideas into stunning digital experiences.</p>
-
-
-    <div class="contain">
-        <div class="row">
-            <div class="col d-none d-lg-block">
-                <img src="src/images/roaddd.png" class="img-fluid" alt="roaddd photo"/>
+   
+    <section id="home" class="content-container container sect">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1>Hi, I am Faith</h1>
+                <h2>Front-end Developer based in Portugal</h2>
+                <p>I turn creative ideas into code and build digital experiences that shine. Welcome to my portfolio!
+                </p>
+                <a href="#project" class="btn btn-brand">View my Projects</a>
             </div>
-            <div class="col">
-                <div class="dis-project">
-                    <h2 class="mb-5">
-                    📸Picture Gallery App
-                    </h2>
-                    <p class="mb-5 text-muted">
-                        A powerful and elegant photo app that helps you capture life’s best moments in vivid detail. Easily organize, edit,
-                        and share your images with intuitive tools designed for both professionals and casual users. From vibrant landscapes
-                        to candid portraits, keep your memories beautifully preserved and always at your fingertips.
-                    </p>
+            <div class="col-md-6 text-center">
+                <img src="src/images/miieeee.png" class="img-fluid" alt="Faith photo">
+            </div>
+        </div>
+    </section>
 
-                    <a href="work.html" class="btn btn-branding">Learn more</a>
+    <section id="about" class="content-container container sect">
+        <h1>About Me</h1>
+        <p>I am a passionate front-end developer, skilled in creating interactive, responsive, and modern web
+            applications using HTML, CSS, JavaScript, React, and Python.</p>
+    </section>
+
+    
+    <section id="project" class="content-container container sect">
+        <h1>My Project</h1>
+        <div class="row">
+            <div class="col-md-6 mb-4 text-center">
+                <img src="src/images/Roaddd.png" class="img-fluid mb-3 rounded" alt="Picture Gallery App">
+                <h4>📸 Picture Gallery App</h4>
+                <p class="text-muted">Built with HTML, CSS, JavaScript</p>
+                <a href="https://vintage-photo.netlify.app/" target="_blank" class="btn btn-brand">View Project</a>
+            </div>
+            <div class="col-md-6 mb-4 text-center">
+                <img src="src/images/poemm.png" class="img-fluid mb-3 rounded" alt="Poem Generator">
+                <h4>🧠 AI-Powered Poem Generator</h4>
+                <p class="text-muted">Built with HTML, CSS, JavaScript</p>
+                <a href="https://poem-ge.netlify.app/" target="_blank" class="btn btn-brand">View Project</a>
+            </div>
+            <div class="col-md-6 mb-4 text-center">
+                <img src="src/images/lagaccy.png" class="img-fluid mb-3 rounded" alt="Travel Guide App">
+                <h4>🌍 Travel Guide: Places to Visit</h4>
+                <p class="text-muted">Built with HTML, CSS, JavaScript</p>
+                <a href="https://favouritmonument.netlify.app/" target="_blank" class="btn btn-brand">View Project</a>
+            </div>
+            <div class="col-md-6 mb-4 text-center">
+                <img src="src/images/weather.png" class="img-fluid mb-3 rounded" alt="Weather App">
+                <h4>⛅ Live Weather Forecast App</h4>
+                <p class="text-muted">Built with HTML, CSS, JavaScript</p>
+                <a href="https://your-weather-app-link.netlify.app/" target="_blank" class="btn btn-brand">View
+                    Project</a>
+            </div>
+        </div>
+    </section>
+
+  
+    <section id="skills" class="skills-section container">
+        <h1 class="section-title text-center mb-5">Skills</h1>
+        <div class="skills-grid">
+
+            <div class="skills-left">
+                <h2>Technical Skills</h2>
+
+                <div class="skill-linear">
+                    <img src="src/images/html-logo.png" class="skill-logo" alt="HTML Logo">
+                    <div class="skill-label"><span>HTML</span><span class="skill-value">95%</span></div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" data-percent="95"></div>
+                    </div>
+                </div>
+
+                
+                <div class="skill-linear">
+                    <img src="src/images/css-logo.png" class="skill-logo" alt="CSS Logo">
+                    <div class="skill-label"><span>CSS</span><span class="skill-value">85%</span></div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" data-percent="85"></div>
+                    </div>
+                </div>
+
+                
+                <div class="skill-linear">
+                    <img src="src/images/js-logo.png" class="skill-logo" alt="JavaScript Logo">
+                    <div class="skill-label"><span>JavaScript</span><span class="skill-value">80%</span></div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" data-percent="80"></div>
+                    </div>
+                </div>
+
+                
+                <div class="skill-linear">
+                    <img src="src/images/react-logo.png" class="skill-logo" alt="React Logo">
+                    <div class="skill-label"><span>React</span><span class="skill-value">70%</span></div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" data-percent="70"></div>
+                    </div>
+                </div>
+
+                
+                <div class="skill-linear">
+                    <img src="src/images/python-logo.png" class="skill-logo" alt="Python Logo">
+                    <div class="skill-label"><span>Python</span><span class="skill-value">60%</span></div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill" data-percent="60"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            
+            <div class="skills-right">
+                <h2>Professional Skills</h2>
+                <div class="circular-grid">
+                    <div class="circular-wrap">
+                        <div class="circular" data-percent="90">
+                            <div class="circle-inner"><span class="circle-percent">0%</span></div>
+                        </div>
+                        <div class="circle-label">Communication</div>
+                    </div>
+                    <div class="circular-wrap">
+                        <div class="circular" data-percent="95">
+                            <div class="circle-inner"><span class="circle-percent">0%</span></div>
+                        </div>
+                        <div class="circle-label">Attention to Detail</div>
+                    </div>
+                    <div class="circular-wrap">
+                        <div class="circular" data-percent="88">
+                            <div class="circle-inner"><span class="circle-percent">0%</span></div>
+                        </div>
+                        <div class="circle-label">Problem Solving</div>
+                    </div>
+                    <div class="circular-wrap">
+                        <div class="circular" data-percent="85">
+                            <div class="circle-inner"><span class="circle-percent">0%</span></div>
+                        </div>
+                        <div class="circle-label">Teamwork</div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <div class="row mb-5">
-        
-        <div class="col">
-            <div class="dis-project">
-                <h2 class="mb-5">
-                    🧠 AI-Powered Poem Generator
-                </h2>
-                <p class="mb-5 text-muted">
-                    Generate creative poetry using artificial intelligence for any occasion. Whether you’re writing for inspiration,
-                    fun, or a special event, this app crafts unique verses that blend technology with artistic expression, helping you
-                    bring words to life effortlessly.
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section container">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Contact <span>Me</span></h2>
+                <h3>Let's Work Together</h3>
+                <p>I’m always open to new opportunities, collaborations, or exciting projects. Feel free to reach out!
                 </p>
-
-                <a href="work.html" class="btn btn-branding">Learn more</a>
-            </div>  
-        </div>
-        <div class="col d-none d-lg-block">
-            <img src="src/images/poemm.png" class="img-fluid"  alt="poemm photo"/>
-        </div>
-    </div>
-
-    <div class="row mb-5">
-        <div class="col d-none d-lg-block">
-            <img src="src/images/lagaccy.png" class="img-fluid" alt="lagaccy photo"/>
-        </div>
-        <div class="col">
-            <div class="dis-project">
-                <h2 class="mb-5">
-                        🌍 Travel Guide: Places to Visit
-                </h2>
-                
-                <p class="mb-5 text-muted">
-                    Unlock the secrets of travel with an app that guides you to extraordinary destinations. Discover hidden gems and
-                    world famous attractions tailored to your interests. Plan unforgettable adventures with personalized
-                    recommendations, stunning photos, and insightful details that help you explore the world with confidence and
-                    curiosity.
-                </p>
-
-                <a href="work.html" class="btn btn-branding">Learn more</a>
+                <p><i class="fas fa-envelope"></i> faith@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +351</p>
+                <div class="social-links">
+                    <a href="https://github.com/mievila" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/faithakeyiale" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="email" placeholder="Enter Your Email" required>
+                    <input type="text" placeholder="Enter Your Subject" required>
+                    <textarea placeholder="Enter Your Message" required></textarea>
+                    <button type="submit" class="btn-submit">Submit</button>
+                </form>
             </div>
         </div>
-        <footer class="container">
-            <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
-                <div>
-                <h3>
-                    Work Inquiry
-                </h3>
-               
-                <p class="text-muted">
-                    Lets work together</p>
-                    </div>
-                 <div>
-                <a href="contact.html" class="btn btn-brand mb-3" title="contact Faith">Contact Me</a>
-                 </div>
-            </div>
-            <div class="d-flex justify-content-center mb-5">
-            <a href="mailto:faith@gmail.com" class="email-link" title="Email me">
-                faith@gmail.com
-            </a>
-            </div>
-            <div class="socials d-flex justify-content-center ">
-            
-            <a href="https://github.com/mievila" target="_blank" title="GitHub Profile">
-                <i class="fa-brands fa-github"></i>
-            </a>
-          <a href="https:www.linkedin.com/in/faithakeyiale" target="_blank" title="linkedin Profile">
-            <i class="fa-brands fa-linkedin"></i>
-        </a>
-       </div>
-       <P class="text-center mt-5">
-        This project was coded by Faith Akeyiale, and it 
-        is 
-        <a href="https://github.com/mievila/portfolio-project" target="_blank">
-            open-sourced
-        </a>
-    
-       </P>
-        </footer> 
-    </div>
+    </section>
 
+   
+    <footer class="container text-center">
+        <p>This project was coded by Faith Akeyiale and is <a href="https://github.com/mievila/portfolio-project"
+                target="_blank">open-sourced</a>.</p>
+    </footer>
+
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://kit.fontawesome.com/168f32d52b.js" crossorigin="anonymous"></script>
+
+
+    <script src="src/script.js"></script>
 </body>
 
 </html>
